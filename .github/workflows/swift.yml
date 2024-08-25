@@ -10,7 +10,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  Lint Check:
 
     runs-on: macos-latest
 
