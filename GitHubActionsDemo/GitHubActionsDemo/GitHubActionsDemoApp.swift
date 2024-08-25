@@ -13,5 +13,6 @@ struct GitHubActionsDemoApp: App {
         WindowGroup {
             ContentView()
         }
+
     }
 }
