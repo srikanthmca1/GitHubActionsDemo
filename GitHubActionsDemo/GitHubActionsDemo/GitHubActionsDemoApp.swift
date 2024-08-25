@@ -14,8 +14,5 @@ struct GitHubActionsDemoApp: App {
             ContentView()
         }
 
-
-
-        
     }
 }
