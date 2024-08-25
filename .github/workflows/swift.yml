@@ -16,6 +16,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+
+    - name: install SwiftLint
+      run: brew install swiftlint
+      
     - name: Swift lint validation
       run: swiftlint --strict
     # - name: Run tests
